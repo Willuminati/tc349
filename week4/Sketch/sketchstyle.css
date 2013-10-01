@@ -1,5 +1,5 @@
 body {
-	background: grey;
+	background: #ccc;
 	border-top: 10px solid # black;
 	margin: 0;
 	font-family:"Arial", sans-serif;
@@ -18,7 +18,9 @@ h1{
 }
 
 h2{
+	padding: 15px 15px;
 	background:#000;
+	color: #ccc;
 }
 
 h3{
