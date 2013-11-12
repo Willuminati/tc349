@@ -291,7 +291,6 @@ nav a:hover{
 	nav {
 		float:none;
 		width:auto;
-		display:block;
 	
 	}
 	
@@ -300,10 +299,11 @@ nav a:hover{
 	}
 }
 
-@media (max-width: 400px){
+@media only screen and (min-width: 470px) and (max-width: 529px){
 	nav {
 		float:none;
 		width:auto;
+		display:block;
 	
 	}
 	
