@@ -1,4 +1,16 @@
 1. true
 2. false, Federal EIN
 3. false
-4. 
+4. theft
+5. true
+6. 45000*1.35=60750
+	billable=1,152
+	60750/1,152=52.73
+	overhead: 12000/1152=10.42
+	Operating Cost:63/hr
+	profit: 25% = 15.8
+	Final Hourly Rate = 79/hr
+7.False
+8.Altitude
+9.True
+10.Specialize, Innovate, Be profitable
