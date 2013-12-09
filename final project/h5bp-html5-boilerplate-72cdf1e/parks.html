@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+ 		<script src="//use.edgefonts.net/arizonia:n4:all;condiment.js"></script>
+    </head>
+    <body>
+
+
+		<nav id= "navbar">
+			<ul>
+				<li><a href="index.html">Home</a> </li>
+				<li><a href="team.html">The Team </a> </li>
+				<li><a href="contact.html">Contact </a> </li>
+			</ul>
+		</nav>
+		
+		<nav id= "secondnav">
+			<ul>
+				<li><a href="#">Donate</a> </li>
+				<li><a href="#">Blog </a> </li>
+			</ul>
+		</nav>
+		
+		<header id="head">
+			<h1> The Parks </h1> <br>
+			<p> Here you will find a map that shows the location of the parks selected
+				for the beautification project and also before and after images. These parks
+			    were essentially wastelands and only served to add to the blight of the neighborhoods.
+			    After the transformation they are clean, beautiful, and promotes a safe environment.</p>
+		</header>
+	
+		
+		
+		<div id="map-location" data-0="background-image:url(img/map_bw.jpg);opacity:.5;"
+				 data-100="background-image:url(img/map.jpg);opacity:1;" data-800="opacity:.5;">
+		</div>
+	<section class="boxes">
+		<h1 id="before"> Before </h1>
+		<h1 id="after"> After  </h1>
+		<div class="box">
+			<h2> Vernor and Mt. Elliot  </h2>
+			<div class="a-box">
+				<img src="img/vernor-before.png">
+			</div> 
+			<div class="b-box">
+				<img src="img/vernor-after.png">
+			</div> 
+		</div>
+		
+		<div class="box">
+			<h2> Mac and Bewick  </h2>
+			<div class="a-box">
+				<img src="img/mac-before.png">
+			</div>
+			<div class="b-box">
+				<img src="img/mac-after.png">
+			</div>
+		</div>
+		
+		<div class="box">
+			<h2> Mcdougall Street </h2>
+			<div class="a-box">
+				<img src="img/mcdougall-before.png">
+			</div>
+			<div class="b-box">
+				<img src="img/mcdougall-after.png">
+			</div>
+		</div>
+		
+	</section>
+		
+		
+		
+		
+		
+		
+		
+	<footer id="bottom">
+		<ul id="mf122">
+			<li id="logo">Follow us!</li>
+			<li id="mf123"><a href="twitter.com/baileyparkproject" title="Twitter" >Twitter</a></li>
+			<li id="mf124"><a href="http://www.facebook.com/baileyparkDetroit" title="Facebook" >Facebook</a></li>
+			<li id="mf125"><a href="http://www.instagram.com/baileyparkproject" title="Instagram" >Instagram</a></li>
+		</ul>
+	</footer>
+		
+
+		
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/vendor/skrollr.min.js"></script>
+        
+        <script type="text/javascript">
+        	if ($(window).width()>600){
+        	var s=skrollr.init();
+        	//The options (second parameter) are all optional. The values shown are the default values.
+			skrollr.menu.init(s, {
+			//skrollr will smoothly animate to the new position using `animateTo`.
+			animate: true,
+
+			//The easing function to use.
+			easing: 'sqrt',
+
+			//How long the animation should take in ms.
+			duration: function(currentTop, targetTop) {
+				//By default, the duration is hardcoded at 500ms.
+				return 500;
+
+				//But you could calculate a value based on the current scroll position (`currentTop`) and the target scroll position (`targetTop`).
+				//return Math.abs(currentTop - targetTop) * 10;
+			},
+
+			//If you pass a handleLink function you'll disable `data-menu-top` and `data-menu-offset`.
+			//You are in control where skrollr will scroll to. You get the clicked link as a parameter and are expected to return a number.
+			//handleLink: function(link) {
+			//	return 400;//Hardcoding 400 doesn't make much sense.
+			//}
+		}); 
+		}
+        </script>
+
+
+    </body>
+</html>

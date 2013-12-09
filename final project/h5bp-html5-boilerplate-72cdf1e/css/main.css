@@ -38,6 +38,7 @@ html, body {
 font-family: "Helvetica Neue", Arial, sans-serif;
 font-size: 62.5%;
 line-height: 1.5em;
+
 }
 
 html {
@@ -211,30 +212,36 @@ Introduction
 Content
 */
 
+
 sub{
 	margin: 0px auto;
+
 }
 
 ol.sub{
 	list-style-type: none;
-	width: 850px;
+	width: 100%;
 	float: left;
-	margin: 30px auto 124px 105px;
+	margin: 30px auto;
+	margin-left:15px;
 	padding: 0;
 }
 
 ol.sub li{
+	line-height: 1.5em;
 	float:left;
-	width: 33%;
-	margin:0
-	padding:0;
+	font-size: 13px;
+	width: 30%;
+	margin: 1px auto;
+	padding:1%;
 }
 
+/* Donate Section */
 section#midpoint#midpoint {
 padding-bottom: 124px;
 }
 section#midpoint {
-background: url('img/SpiritDetroit.png') no-repeat center center #f6f6f8;
+background: url('img/SpiritDetroit.png') no-repeat center center #c6d2c6;
 }
 
 .mega {
@@ -262,7 +269,7 @@ section#midpoint#midpoint #pos h2 {
   line-height: 0.78em;
   text-align: center;
 }
-section#midpoint#midpoint #pos h6 {
+section#midpoint#midpoint #pos h2 {
   font-family: "Proxima Nova Semibold", 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size-adjust: 0.488;
   font-weight: 600;
@@ -292,7 +299,7 @@ section#midpoint#midpoint #pos ul li {
   float: left;
   width: 660px;
   padding: 0 20px;
-  border-bottom: 1px solid #e0e5e9;
+  border-bottom: 1px solid #199413;
 }
 section#midpoint#midpoint #pos ul li:last-child {
   border: none;
@@ -361,8 +368,17 @@ section#midpoint#midpoint #pos ul li a #details.bigbutton:hover {
 section#midpoint#midpoint #pos ul li a #details.bigbutton:active {
   background-color: #70a822;
 }
+/*inspired by campmonitor*/
+/* Donate End */
 
+footer ul{
+margin: 0; 
+padding: 5px; /* Set margin and padding for cross browser consistency. */ 
+list-style-type: none; /* Needed to eliminate list item marker */ 
+text-align: left; /* aligns navigation bar */ 
+background-color: #22884f; /* Set as desired */
 
+}
 footer {
 float: left;
 width: 100%;
@@ -370,56 +386,178 @@ min-width: 985px;
 position: relative;
 color: #c3cbd3;
 background: #f2f2f3;
-padding: 0 0 60px 0;
 display: block;
 font-size: 100%;
 }
-footer#slim {
+footer#bottom {
 border-top: none !important;
 
 }
-footer#slim {
+footer#bottom {
 background: none;
-width: 950px;
-min-width: 100px;
-margin: 100px auto;
 float: none;
 clear: both;
 border-top: 1px solid #e0e5e9;
+
 }
 
-footer#slim ul li{
+footer#bottom ul li{
 display:inline;
+}
+
+footer#bottom ul a{
+text-decoration: none; /* The setting of "none" allows the link to not be underlined. This is up to user preference. */ 
+padding: .2em 1em; /* Gives the link space inside it's individual block. */ 
+color: #fff; /* Set as desired */ 
+background-color: #22884f; /* Set as desired */ 
 }
 
 
 
 /* Contact Page */
 #contactleft{
-margin: 70px 15px 10px 60px;
+margin: 70px 25px 10px 80px;
 float: left;
 font-size: 100%;
 line-height: 3em;
 }
 #contactright{
 float: right;
-margin:70px 100px 10px 15px;
+margin:70px 300px 10px 35px;
 width: 400px;
-height:350px;
-background-color:#000000;
+height:250px;
 }
 
+#contactright p{
+line-height: 1.3em; 
+font-size: 13px;
+text-align: left;
+margin: 1px auto;
+}
 
+#locad{
+clear:both;
+margin:10px auto;
+display:block;
+text-align:center;
+}
 
 /* Team Page */
 .l-box {
 padding: 1em;
 background-color: #eee;
+margin: 20px auto;
+width:850px;
+}
+.r-box {
+padding: 1em;
+background-color: #eee;
+margin: 20px auto;
+width:850px;
+text-align: right;
 }
 
 user agent stylesheetdiv {
 display: block;
 }
+#it{
+margin:30px auto;
+text-align: center;
+font-size: 30px;
+}
+
+
+/* ==========================================================================
+   Park Page
+   ========================================================================== */
+
+#head h1{
+	margin-top: 40px;
+	text-align:center;
+}
+#head p{
+	font-size: 13px;
+	line-height: 1.3em;
+}
+#head{
+	width: 40%;
+	margin: 1px auto;
+}
+.boxes h2{
+	margin-top: 40px;
+	text-align:center;
+	clear: both;
+}
+.boxes #before{
+	display:inline-block;
+	margin-left: 300px;
+}
+.boxes #after{
+	display:inline-block;
+	margin-left: 500px;
+}
+.a-box {
+padding: 1em;
+background-color: #eee;
+margin: 20px 170px;
+width:400px;
+float:left;
+}
+.b-box {
+padding: 1em;
+background-color: #eee;
+margin: 20px auto;
+width:400px;
+text-align: right;
+float:left;
+}
+
+user agent stylesheetdiv {
+display: block;
+}
+
+
+
+
+/* ==========================================================================
+  Contact Page
+*/ ===========================================================================
+#contactleft { width: 300px; }
+label { float: left; width: 150px; }
+input[type=text] { float: left; width: 150px;  }
+.clear { clear: both; height: 0; line-height: 0; }
+.floatright { float: right; }
+
+
+#map_canvas{
+position: relative;
+overflow: hidden;
+float: none;
+clear:both;
+margin:20px 100px 10px 350px;
+width: 600px;
+height:450px;
+background-color:#000000;
+}
+
+/* ==========================================================================
+   Map Location
+   ========================================================================== */
+
+#map-location{
+	display:block;
+	background:#f3f3f3;
+	background-position: center;
+	height:250px;
+	transition: background-image 1s;
+	padding:20px;
+	margin-top:100px;
+	margin-bottom:70px;
+	
+	
+}
+
+
 
 /* ==========================================================================
    Helper classes
