@@ -673,8 +673,159 @@ background-color:#000000;
    Modify as content requires.
    ========================================================================== */
 
+
+@media (max-width: 900px) {
+		
+		.mega {
+		float: left;
+		width: 100%;
+		min-width: 100%;
+		clear: both;
+		pos: relative;
+		z-index: 2;
+		}
+		
+		
+		section#midpoint#midpoint #pos ul li a .details {
+		  float: none;
+		  width: 11%;
+		  text-align: center;
+		  color: #adb3b9;
+		  min-height: 10px;
+		  overflow: hidden;
+		  margin-top: 10px;
+		}
+		
+		section#midpoint#midpoint #pos {
+		  width: 80%;
+		  padding: 12% 2% 0;
+		  margin: 0 auto;
+		}
+		
+		
+		section#midpoint#midpoint #pos ul li a .title {
+		  float: left;
+		  width: 46%;
+		  overflow: hidden;
+		  display: block;
+		}
+		
+		#contactleft{
+		margin: 10px auto;
+		font-size: 100%;
+		line-height: 3em;
+		}
+		#contactright{
+		margin:10px auto;
+		width: 45%;
+		height:20%;
+		}
+		
+		#contactleft { width: 30%; }
+		label { float: none; width: 150px; }
+		input[type=text] { float: none; width: 15%px;  }
+		.clear { clear: both; height: 0; line-height: 0; }
+		.floatright { float: none; }
+		
+		#map_canvas{
+		position: relative;
+		overflow: hidden;
+		float: none;
+		clear:both;
+		margin:10px auto;
+		width: 60%;
+		height:40%;
+		background-color:#000000;
+		}
+		
+		
+		
+		
+		
+	/* ==========================================================================
+	   Park Page
+	   ========================================================================== */
+
+		#head h1{
+			margin-top: 5%;
+			text-align:center;
+		}
+		#head p{
+			font-size: 13px;
+			line-height: 1.3em;
+		}
+		#head{
+			width: 40%;
+			margin: 1px auto;
+		}
+		.boxes h2{
+			margin-top: 5%;
+			text-align:center;
+			clear: both;
+		}
+		.boxes #before{
+			display:inline-block;
+			margin-left: 32%;
+			font-size: 0%;
+		}
+		.boxes #after{
+			display:inline-block;
+			margin-left: 54%;
+			font-size: 0%;
+		}
+		.a-box {
+		padding: 1em;
+		background-color: #eee;
+		margin: 0px;
+		width:37%;
+		float:none;
+		}
+		.b-box {
+		padding: 1em;
+		background-color: #eee;
+		margin: 0px;
+		width:37%;
+		float:none;
+		}
+
+		user agent stylesheetdiv {
+		display: block;
+		}
+		
+		
+		
+		
+		
+		
+/* Team Page */
+		.l-box {
+		padding: 1em;
+		background-color: #eee;
+		margin: 3% auto;
+		width:80%;
+		}
+		.r-box {
+		padding: 1em;
+		background-color: #eee;
+		margin: 3% auto;
+		width:80%;
+		}
+
+		user agent stylesheetdiv {
+		display: block;
+		}
+		#it{
+		margin:4% auto;
+		text-align: center;
+		font-size: 4%;
+		}
+
+  
+	  }
+
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+    
 }
 
 @media print,
@@ -683,6 +834,10 @@ background-color:#000000;
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
+
+
+
+
 
 /* ==========================================================================
    Print styles.
