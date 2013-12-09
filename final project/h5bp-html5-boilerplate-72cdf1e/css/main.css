@@ -136,7 +136,7 @@ textarea {
 
 h1, h2, p, ul{
 	margin:0;
-	font-family: condiment, sans-serif;
+	font-family: alice, serif;
 }
 
 /*
@@ -309,10 +309,17 @@ section#midpoint#midpoint #pos ul li a {
   color: #2f353e;
   padding: 24px 0;
 }
-section#midpoint#midpoint #pos ul li a:hover #details.bigbutton {
+section#midpoint#midpoint #pos ul li a:hover .details {
   background-color: #7ebd26;
 }
-section#midpoint#midpoint #pos ul li a:active #details.bigbutton {
+section#midpoint#midpoint #pos ul li a:active .details {
+  background-color: #70a822;
+}
+
+section#midpoint#midpoint #pos ul li a:hover .details {
+  background-color: #7ebd26;
+}
+section#midpoint#midpoint #pos ul li a:active .details {
   background-color: #70a822;
 }
 section#midpoint#midpoint #pos ul li a .title {
@@ -338,7 +345,7 @@ section#midpoint#midpoint #pos ul li a .title h4 {
   text-transform: uppercase;
   font-weight: bold;
 }
-section#midpoint#midpoint #pos ul li a #details {
+section#midpoint#midpoint #pos ul li a .details {
   float: right;
   width: 55px;
   text-align: center;
@@ -347,7 +354,7 @@ section#midpoint#midpoint #pos ul li a #details {
   overflow: hidden;
   margin-top: 10px;
 }
-section#midpoint#midpoint #pos ul li a #details.bigbutton {
+section#midpoint#midpoint #pos ul li a .details {
   display: inline-block;
   *display: inline;
   font-size: 1.3em;
@@ -362,10 +369,10 @@ section#midpoint#midpoint #pos ul li a #details.bigbutton {
   font-size: 1.2em;
   background-pos: 90% center;
 }
-section#midpoint#midpoint #pos ul li a #details.bigbutton:hover {
+section#midpoint#midpoint #pos ul li a .details:hover {
   background-color: #7ebd26;
 }
-section#midpoint#midpoint #pos ul li a #details.bigbutton:active {
+section#midpoint#midpoint #pos ul li a .details:active {
   background-color: #70a822;
 }
 /*inspired by campmonitor*/
@@ -423,7 +430,7 @@ line-height: 3em;
 }
 #contactright{
 float: right;
-margin:70px 300px 10px 35px;
+margin:70px 150px 10px 35px;
 width: 400px;
 height:250px;
 }
